@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&family=PT+Sans&display=swap');
+.main_container{
+    /* height: 80vh; */
+    background-color:hsl(256, 26%, 20%);
+}
+.header_container{
+    margin-top: 10vh;
+    display: flex;
+    
+    color: hsl(0, 0%, 98%);
+
+}
+.header_item{
+    /* padding: 20vh 0 31vh 10vw; */
+    
+    text-align: left;
+
+}
+.heading{
+    text-align:justify;
+    font-size: 4em;
+    letter-spacing:2px;
+    line-height: 1
+}
+.para{
+    text-align: left;
+}   
+.img{
+ position: static;
+    padding-top:20vh ;
+ width: 344px;
+    /* height: 10; */
+    object-fit: contain;
+}
+.cont{
+    margin: 121px 85px;
+}
+

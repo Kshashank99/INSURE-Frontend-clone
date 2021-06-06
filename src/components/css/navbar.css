@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&family=PT+Sans&display=swap');
+.appbar{
+    
+    font-family: 'Karla', sans-serif;
+}
+.ul {
+    align-items: center;
+    flex: 1;    
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    color:hsl(0, 0%, 98%);
+}
+.li{
+    list-style:none;
+    
+    font-size: 16px;
+    padding: 0 10px;
+    font-family:  'Karla', sans-serif;
+    color: hsl(216, 30%, 68%);
+
+}
+.toolbar{
+    justify-content: space-between;
+    background-color: hsl(0, 0%, 98%)
+    ;
+    max-width: 100%;
+}
+
+
+.logo{
+    padding-left: 10vh;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: hsl(216, 30%, 68%)
+}
+.fontawesome i {
+    color: black;
+}
+.btn{
+    border: "2px solid black";
+    color: black;
+					
+}
+.btn:hover {background-color: #0e140e}
+
+.btn:active {
+  background-color: #272e28;
+  box-shadow: 0 5px rgb(34, 29, 29);
+  transform: translateY(4px);
+}
